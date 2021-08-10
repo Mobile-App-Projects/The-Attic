@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "437727079374",
+    "project_id": "the-attic-4c5cb",
+    "storage_bucket": "the-attic-4c5cb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:437727079374:android:0fc9c1d8601517690e599f",
+        "android_client_info": {
+          "package_name": "com.mutinda.theattic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "437727079374-1bat7h2iblfnn8l6t9seh0q402limh4o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLWkxaX2hYJhqYhK8WAbomH42b4jUY5N0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "437727079374-1bat7h2iblfnn8l6t9seh0q402limh4o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
