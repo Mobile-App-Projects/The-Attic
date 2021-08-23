@@ -9,6 +9,12 @@
         app:showAsAction="never" />
 
     <item
+        android:id="@+id/action_add"
+        android:icon="@drawable/add_icon"
+        app:showAsAction="always"
+        android:title="Add"/>
+
+    <item
         android:id="@+id/action_logout"
         android:orderInCategory="3"
         android:title="@string/logout"

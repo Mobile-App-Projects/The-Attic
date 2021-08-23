@@ -20,4 +20,16 @@
     <string name="login">Login</string>
     <string name="no_account_sign_up">No Account? Sign Up</string>
     <string name="post">Post</string>
+    <string name="post_title">Post title</string>
+    <string name="post_description">Post description</string>
+    <string name="user_profile_picture">User Profile Picture</string>
+    <string name="victor">Victor</string>
+    <string name="time">time</string>
+    <string name="date">date</string>
+    <string name="_0">0</string>
+    <string name="likes">Likes</string>
+    <string name="comment_button">Comment Button</string>
+    <string name="set_profile">Set Profile</string>
+    <string name="add_post">Add Post</string>
+    <string name="delete_post">Delete Post</string>
 </resources>

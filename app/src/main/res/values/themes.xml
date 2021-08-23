@@ -22,4 +22,9 @@
     <style name="Theme.TheAttic.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="Theme.TheAttic.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="app_title">
+        <item name="android:textSize">17sp</item>
+    </style>
+
 </resources>

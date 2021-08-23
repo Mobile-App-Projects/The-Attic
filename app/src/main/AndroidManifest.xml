@@ -3,6 +3,7 @@
     package="com.mutinda.theattic">
 
     <application
+        android:name=".FirebaseHandler"
         android:allowBackup="true"
         android:icon="@mipmap/app_logo"
         android:label="@string/app_name"
@@ -10,28 +11,33 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TheAttic">
         <activity
+            android:name=".SinglePostActivity"
+            android:exported="true"/>
+        <activity
             android:name=".PostActivity"
-            android:exported="true" />
+            android:exported="true"
+            android:theme="@style/Theme.TheAttic.NoActionBar"/>
         <activity
             android:name=".ProfileActivity"
-            android:exported="true" />
+            android:exported="true"
+            android:label="@string/set_profile" />
         <activity
             android:name=".LoginActivity"
             android:exported="true" />
         <activity
             android:name=".RegisterActivity"
-            android:exported="true">
+            android:exported="true"/>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.TheAttic.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".MainActivity"
-            android:exported="true"
-            android:label="@string/app_name"
-            android:theme="@style/Theme.TheAttic.NoActionBar" />
     </application>
 
 </manifest>
